@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>simple navbar</title>
 </head>
 <body>
-    
-      <header>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#contact">contact</a></li>
+    <h2>accueil</h2>
+        <header>
+          <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item"><a href="#about">about</a></li>
+                <li class="nav-item"><a href="#work">work</a></li>
+                <li class="nav-item"><a href="#contact">contact</a></li>
             </ul>
-        </nav>
-      </header>
+          </nav>
+        </header>
       
       <section id="Home">
-        <h2>Home</h2>
-        <ul>
-            <li>Kobena</li>
-            <li>kouadio Yebouah</li>
-            <li>Photo</li>
-        </ul>
-        <img width="200"  src="arrosez-l-éclaboussure-dans-la-forme-de-couronne-et-baisse-en-avec-image-terre-goutte-pluie-bleue-eau-éclaboussent-140453719.webp"="Photo">
+            <h2>Home</h2>
+            <ul>
+               <li>Kobena</li>
+               <li>kouadio Yebouah</li>
+               <li>Photo</li>
+           </ul>
+           <img width="200" src="image.webp">
+       </section>
 
         <section id="about">
             <h2>about</h2>
@@ -52,11 +54,9 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/wd4IizA9M68?si=gzl84_vWEgkWhj-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         
-        
-
         <section id="contact">
             <h2>contact</h2>
-            <form action="">
+            <form action="text">
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="name">
                 <label for="Prenoms">Prenoms :</label>
@@ -66,10 +66,12 @@
                 <label for="message">Pourquoi nous contater ?</label>
                 <textarea name="message" id="message"></textarea>
                 <input type="submit" value="envoyer">
-                <footer>
+            </form>
+        </section>
+
         <section id="contact">
             <h3>contact</h3>
-            <form action="">
+            <form action="text">
                 <label for="Contact">Contact</label>
                 <input type="text" id="text" name="text">
                 <label for="Email">Email</label>
